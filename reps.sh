@@ -1,3 +1,8 @@
+# Just exit (for now) if we are not under X
+if [ ! $(pgrep -x "Xorg") ]; then
+  exit 1
+fi
+
 # bind keys for saving replays
 xbindkeys -f "$PWD/.xbk"
 
