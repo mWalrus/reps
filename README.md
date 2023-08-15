@@ -4,6 +4,7 @@ A Steam game launch wrapper which runs `gpu-screen-recorder` alongside your game
 ## Requirements
 - `gpu-screen-recorder` (available on the AUR as [gpu-screen-recorder-git](https://aur.archlinux.org/packages/gpu-screen-recorder-git))
 - `xbindkeys` for, you guessed it, binding keys
+- `xrandr` to discover your primary monitor
 
 ## Installation
 - Clone repo: `git clone https://github.com/mWalrus/reps`
