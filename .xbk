@@ -1,0 +1,7 @@
+# Save replay
+"killall -SIGUSR1 gpu-screen-recorder"
+Mod1+R
+
+# Kill screen recorder
+"killall gpu-screen-recorder"
+Mod1+K
