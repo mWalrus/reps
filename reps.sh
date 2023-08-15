@@ -3,6 +3,7 @@ xbindkeys -f "$PWD/.xbk"
 
 # kill potential existing instances of gsr
 killall gpu-screen-recorder
+
 # run screen recorder
 # options:
 # -r = replay length
