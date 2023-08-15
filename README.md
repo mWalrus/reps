@@ -13,7 +13,7 @@ A Steam game launch wrapper which runs `gpu-screen-recorder` alongside your game
 Add this to your launch commands for any game:
 `/path/to/reps/reps.sh %command%`
 
-#### Replay file location
+### Replay file location
 Replays are saved to `$HOME/Replays`
 
 ## What it does
